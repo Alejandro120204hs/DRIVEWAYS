@@ -2014,11 +2014,22 @@ main {
   position: relative;
   transform-style: preserve-3d;
   transition: transform 0.8s;
+  cursor: pointer;
 }
 
-#hero-testimonials .testimonials-card:hover .card {
-  transform: rotateY(180deg);
+#hero-testimonials .card .card-front p.click-info{
+margin-top: 20px;
+color: var(--secunday-color);
+text-decoration: underline;
 }
+
+#hero-testimonials .card.flipped{
+transform: rotateY(180deg);
+cursor: pointer;
+}
+/* #hero-testimonials .testimonials-card:hover .card {
+  transform: rotateY(180deg);
+} */
 
 #hero-testimonials .card-front,
 .card-back {
