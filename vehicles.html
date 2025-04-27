@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VEHICLES</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html" id="logo"
+          ><img src="img/logo.png" alt="Logo Website"
+        /></a>
+        <ul>
+          <li>
+            <a href="index.html">HOME</a>
+            <!-- <ul>
+                        <li><a href="#">HOME1</a></li>
+                        <li><a href="#">HOME2</a></li>
+                    </ul> -->
+          </li>
+          <li><a href="about.html">ABOUT US</a></li>
+          <li><a href="vehicles.html">VEHICLES</a></li>
+          <li><a href="rentals.html">RENTALS</a></li>
+        </ul>
+        <a href="reservar.html">CONTAC US</a>
+      </nav>
+
+      <div id="cont-menu-mobile">
+        <a href="index.html">HOME</a>
+        <a href="about.html">ABOUT US</a>
+        <a href="carslist.html">VEHICLES</a>
+        <a href="rentals.html">RENTALS</a>
+      </div>
+
+      <nav class="mobile">
+        <a href="index.html"><img src="img/logo.png" alt="LOGO" /></a>
+        <button onclick="menuMobile()"><i class="fa-solid fa-bars"></i></button>
+      </nav>
+
+      <div id="hero-vehicles">
+        <div class="tittle">
+          <h1>OURS VEHICLES</h1>
+        </div>
+        <div class="tittle-2">
+          <div class="left">
+            <h2>POPULAR VEHICLES</h2>
+            <hr />
+          </div>
+        </div>
+        <div class="fila">
+          <div class="col-car html" data-aos="flip-up" data-aos-duration="1000">
+            <div class="left">
+              <img src="img/nissan.png" alt="CARRO GTR" />
+            </div>
+            <div class="right">
+              <h3>$600 <span>/Day</span></h3>
+              <h2>NISSAN GT-R R35</h2>
+              <hr />
+              <ul>
+                <li><i class="fa-solid fa-gas-pump"></i>Gasoline</li>
+                <li><i class="fa-brands fa-rev"></i>5.000 miles</li>
+                <li><i class="fa-solid fa-car-side"></i>Sport</li>
+                <li><i class="fa-solid fa-car-side"></i>Automatic</li>
+              </ul>
+
+              <div class="buttons">
+                <p>AVAILABLE</p>
+                <a href="reservar.html"><button class="book-now-btn">Book now - </button></a>
+              </div>
+              <p class="discount">20% OFF</p>
+            </div>
+          </div>
+
+          <div class="col-car lambo" data-aos="flip-up" data-aos-duration="800">
+            <div class="left">
+              <img src="img/lambo.png" alt="CARRO LAMBO" />
+            </div>
+            <div class="right">
+              <h3>$1200 <span>/Day</span></h3>
+              <h2>LAMBORGHINI AVENTADOR</h2>
+              <hr />
+              <ul>
+                <li><i class="fa-solid fa-gas-pump"></i>Gasoline</li>
+                <li><i class="fa-brands fa-rev"></i>6.000 miles</li>
+                <li><i class="fa-solid fa-car-side"></i>Sport</li>
+                <li><i class="fa-solid fa-car-side"></i>Automatic</li>
+              </ul>
+
+              <div class="buttons">
+                <p>AVAILABLE</p>
+                <a href="reservar.html"><button class="book-now-btn">Book now - </button></a>
+              </div>
+              <p class="discount">20% OFF</p>
+            </div>
+          </div>
+
+          <div
+            class="col-car bugatti"
+            data-aos="flip-up"
+            data-aos-duration="1100"
+          >
+            <div class="left">
+              <img src="img/bugati.png" alt="CARRO BUGATTI" />
+            </div>
+            <div class="right">
+              <h3>$25000 <span>/Day</span></h3>
+              <h2>BUGATTI CHIRON</h2>
+              <hr />
+              <ul>
+                <li><i class="fa-solid fa-gas-pump"></i>Gasoline</li>
+                <li><i class="fa-brands fa-rev"></i>7.000 miles</li>
+                <li><i class="fa-solid fa-car-side"></i>Sport</li>
+                <li><i class="fa-solid fa-car-side"></i>Automatic</li>
+              </ul>
+
+              <div class="buttons">
+                <p>AVAILABLE</p>
+                <a href="reservar.html"><button class="book-now-btn">Book now - </button></a>
+              </div>
+              <p class="discount">20% OFF</p>
+            </div>
+          </div>
+
+          <div
+            class="col-car porsche"
+            data-aos="flip-up"
+            data-aos-duration="1400"
+          >
+            <div class="left">
+              <img src="img/porche.png" alt="AZUL PORSCHE" />
+            </div>
+            <div class="right">
+              <h3>$1500<span>/Day</span></h3>
+              <h2>PORSCHE 911 GT3 RS</h2>
+              <hr />
+              <ul>
+                <li><i class="fa-solid fa-gas-pump"></i>Gasoline</li>
+                <li><i class="fa-brands fa-rev"></i>7.000 miles</li>
+                <li><i class="fa-solid fa-car-side"></i>Sport</li>
+                <li><i class="fa-solid fa-car-side"></i>Automatic</li>
+              </ul>
+
+              <div class="buttons">
+                <p>AVAILABLE</p>
+                <a href="reservar.html"><button class="book-now-btn">Book now - </button></a>
+              </div>
+              <p class="discount">20% OFF</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="mas-carros">
+          <!-- <a href="#more-vehicles"><button class="btn" onclick="toggleSection('more-vehicles')"> MORE VEHICLES</button></a> -->
+          <button class="btn" onclick="showAndScrollToSection('more-vehicles')">
+            MORE VEHICLES
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="more-vehicles">
+        <div class="tittle">
+          <h2>FAMILY VEHICLES</h2>
+          <hr />
+        </div>
+        <div class="fila">
+          <div
+            class="col-car cadillac"
+            data-aos="flip-up"
+            data-aos-duration="500"
+          >
+            <div class="left">
+              <img src="img/cadillac.png" alt="CAMIONETA CADILLAC" />
+            </div>
+            <div class="right">
+              <h3>$1000 <span>/Day</span></h3>
+              <h2>CADILLAC</h2>
+              <hr />
+              <ul>
+                <li><i class="fa-solid fa-gas-pump"></i>Gasoline</li>
+                <li><i class="fa-brands fa-rev"></i>5.000 miles</li>
+                <li><i class="fa-solid fa-car-side"></i>Family</li>
+                <li><i class="fa-solid fa-car-side"></i>Automatic</li>
+              </ul>
+
+              <div class="buttons">
+                <p>AVAILABLE</p>
+                <a href="reservar.html"><button class="book-now-btn">Book now - </button></a>
+              </div>
+              <p class="discount">20% OFF</p>
+            </div>
+          </div>
+
+          <div
+            class="col-car gwagon"
+            data-aos="flip-up"
+            data-aos-duration="800"
+          >
+            <div class="left">
+              <img src="img/gwagon.png" alt="CAMIONETA GWAGON" />
+            </div>
+            <div class="right">
+              <h3>$600 <span>/Day</span></h3>
+              <h2>MERCEDES-BENZ AMG</h2>
+              <hr />
+              <ul>
+                <li><i class="fa-solid fa-gas-pump"></i>Gasoline</li>
+                <li><i class="fa-brands fa-rev"></i>6.000 miles</li>
+                <li><i class="fa-solid fa-car-side"></i>Sport</li>
+                <li><i class="fa-solid fa-car-side"></i>Automatic</li>
+              </ul>
+
+              <div class="buttons">
+                <p>AVAILABLE</p>
+                <a href="reservar.html"><button class="book-now-btn">Book now - </button></a>
+              </div>
+              <p class="discount">20% OFF</p>
+            </div>
+          </div>
+
+          <div
+            class="col-car hummer"
+            data-aos="flip-up"
+            data-aos-duration="1100"
+          >
+            <div class="left">
+              <img src="img/hummer.png" alt="CAMIONETA HUMMER" />
+            </div>
+            <div class="right">
+              <h3>$600 <span>/Day</span></h3>
+              <h2>HUMMER</h2>
+              <hr />
+              <ul>
+                <li><i class="fa-solid fa-gas-pump"></i>Electrical</li>
+                <li><i class="fa-brands fa-rev"></i>7.000 miles</li>
+                <li><i class="fa-solid fa-car-side"></i>Family</li>
+                <li><i class="fa-solid fa-car-side"></i>Automatic</li>
+              </ul>
+
+              <div class="buttons">
+                <p>AVAILABLE</p>
+                <a href="reservar.html"><button class="book-now-btn">Book now - </button></a>
+              </div>
+              <p class="discount">20% OFF</p>
+            </div>
+          </div>
+
+          <div
+            class="col-car cybertruck"
+            data-aos="flip-up"
+            data-aos-duration="1400"
+          >
+            <div class="left">
+              <img src="img/cybertruck.png" alt="CAMIONETA CYBERTRUCK" />
+            </div>
+            <div class="right">
+              <h3>$800<span>/Day</span></h3>
+              <h2>TESLA CYBERTRUCK</h2>
+              <hr />
+              <ul>
+                <li><i class="fa-solid fa-gas-pump"></i>Electrical</li>
+                <li><i class="fa-brands fa-rev"></i>7.000 miles</li>
+                <li><i class="fa-solid fa-car-side"></i>Family</li>
+                <li><i class="fa-solid fa-car-side"></i>Automatic</li>
+              </ul>
+
+              <div class="buttons">
+                <p>AVAILABLE</p>
+                <a href="reservar.html"><button class="book-now-btn">Book now - </button></a>
+              </div>
+              <p class="discount">20% OFF</p>
+            </div>
+          </div>
+        </div>
+        <div class="mas-carros-2">
+          <!-- <a href="#more-vehicles-2"><button class="btn" onclick="toggleSection('more-vehicles-2')"> MORE VEHICLES</button></a> -->
+          <button
+            class="btn"
+            onclick="showAndScrollToSection('more-vehicles-2')"
+          >
+            MORE VEHICLES
+          </button>
+        </div>
+      </section>
+
+      <section id="more-vehicles-2">
+        <div class="tittle">
+          <h2>SPORTS VEHICLES</h2>
+          <hr />
+        </div>
+
+        <div class="fila">
+          <div
+            class="col-car ferrari"
+            data-aos="flip-up"
+            data-aos-duration="500"
+          >
+            <div class="left">
+              <img src="img/ferrari.png" alt="FERRARI" />
+            </div>
+            <div class="right">
+              <h3>$2500 <span>/Day</span></h3>
+              <h2>FERRARI FS90 STRADALE</h2>
+              <hr />
+              <ul>
+                <li><i class="fa-solid fa-gas-pump"></i>Gasoline</li>
+                <li><i class="fa-brands fa-rev"></i>5.000 miles</li>
+                <li><i class="fa-solid fa-car-side"></i>Sport</li>
+                <li><i class="fa-solid fa-car-side"></i>Automatic</li>
+              </ul>
+
+              <div class="buttons">
+                <p>AVAILABLE</p>
+                <a href="reservar.html"><button class="book-now-btn">Book now - </button></a>
+              </div>
+              <p class="discount">20% OFF</p>
+            </div>
+          </div>
+
+          <div
+            class="col-car mclaren"
+            data-aos="flip-up"
+            data-aos-duration="800"
+          >
+            <div class="left">
+              <img src="img/maclaren.png" alt="MCLAREN" />
+            </div>
+            <div class="right">
+              <h3>$2000 <span>/Day</span></h3>
+              <h2>MCLAREN P1</h2>
+              <hr />
+              <ul>
+                <li><i class="fa-solid fa-gas-pump"></i>Gasoline</li>
+                <li><i class="fa-brands fa-rev"></i>6.000 miles</li>
+                <li><i class="fa-solid fa-car-side"></i>Sport</li>
+                <li><i class="fa-solid fa-car-side"></i>Automatic</li>
+              </ul>
+
+              <div class="buttons">
+                <p>AVAILABLE</p>
+                <a href="reservar.html"><button class="book-now-btn">Book now - </button></a>
+              </div>
+              <p class="discount">20% OFF</p>
+            </div>
+          </div>
+
+          <div
+            class="col-car corvette"
+            data-aos="flip-up"
+            data-aos-duration="1100"
+          >
+            <div class="left">
+              <img src="img/corvette.png" alt="CORVETTE" />
+            </div>
+            <div class="right">
+              <h3>$1500 <span>/Day</span></h3>
+              <h2>CORVETTE Z06 (C8)</h2>
+              <hr />
+              <ul>
+                <li><i class="fa-solid fa-gas-pump"></i>Gasoline</li>
+                <li><i class="fa-brands fa-rev"></i>7.000 miles</li>
+                <li><i class="fa-solid fa-car-side"></i>Sport</li>
+                <li><i class="fa-solid fa-car-side"></i>Automatic</li>
+              </ul>
+
+              <div class="buttons">
+                <p>AVAILABLE</p>
+                <a href="reservar.html"><button class="book-now-btn">Book now - </button></a>
+              </div>
+              <p class="discount">20% OFF</p>
+            </div>
+          </div>
+
+          <div
+            class="col-car pagani"
+            data-aos="flip-up"
+            data-aos-duration="1400"
+          >
+            <div class="left">
+              <img src="img/pagani.png" alt="PAGANI" />
+            </div>
+            <div class="right">
+              <h3>$20000<span>/Day</span></h3>
+              <h2>PAGANI HUAYRA ROADSTER</h2>
+              <hr />
+              <ul>
+                <li><i class="fa-solid fa-gas-pump"></i>Gasoline</li>
+                <li><i class="fa-brands fa-rev"></i>7.000 miles</li>
+                <li><i class="fa-solid fa-car-side"></i>Sport</li>
+                <li><i class="fa-solid fa-car-side"></i>Automatic</li>
+              </ul>
+
+              <div class="buttons">
+                <p>AVAILABLE</p>
+                <a href="reservar.html"><button class="book-now-btn">Book now - </button></a>
+              </div>
+              <p class="discount">20% OFF</p>
+            </div>
+          </div>
+        </div>
+        <div class="mas-carros-3">
+          <!-- <a href="#more-vehicles-3"><button class="btn" onclick="toggleSection('more-vehicles-3')"> MORE VEHICLES</button></a> -->
+          <button
+            class="btn"
+            onclick="showAndScrollToSection('more-vehicles-3')"
+          >
+            MORE VEHICLES
+          </button>
+        </div>
+      </section>
+
+      <section id="more-vehicles-3">
+        <div class="tittle">
+          <h2>CLASSIC VEHICLES</h2>
+          <hr />
+        </div>
+
+        <div class="fila">
+          <div class="col-car supra" data-aos="flip-up" data-aos-duration="500">
+            <div class="left">
+              <img src="img/supra.png" alt="FERRARI" />
+            </div>
+            <div class="right">
+              <h3>$3000 <span>/Day</span></h3>
+              <h2>TOYOTA SUPRA MK4 (A80)</h2>
+              <hr />
+              <ul>
+                <li><i class="fa-solid fa-gas-pump"></i>Gasoline</li>
+                <li><i class="fa-brands fa-rev"></i>5.000 miles</li>
+                <li><i class="fa-solid fa-car-side"></i>Clasic</li>
+                <li><i class="fa-solid fa-car-side"></i>Manual</li>
+              </ul>
+
+              <div class="buttons">
+                <p>AVAILABLE</p>
+                <a href="reservar.html"><button class="book-now-btn">Book now - </button></a>
+              </div>
+              <p class="discount">20% OFF</p>
+            </div>
+          </div>
+
+          <div
+            class="col-car mustang"
+            data-aos="flip-up"
+            data-aos-duration="800"
+          >
+            <div class="left">
+              <img src="img/mustang.png" alt="MCLAREN" />
+            </div>
+            <div class="right">
+              <h3>$2000 <span>/Day</span></h3>
+              <h2>FORD MUSTANG SHELBY GT500</h2>
+              <hr />
+              <ul>
+                <li><i class="fa-solid fa-gas-pump"></i>Gasoline</li>
+                <li><i class="fa-brands fa-rev"></i>6.000 miles</li>
+                <li><i class="fa-solid fa-car-side"></i>Clasic</li>
+                <li><i class="fa-solid fa-car-side"></i>Manual</li>
+              </ul>
+
+              <div class="buttons">
+                <p>AVAILABLE</p>
+                <a href="reservar.html"><button class="book-now-btn">Book now - </button></a>
+              </div>
+              <p class="discount">20% OFF</p>
+            </div>
+          </div>
+
+          <div
+            class="col-car fordgt"
+            data-aos="flip-up"
+            data-aos-duration="1100"
+          >
+            <div class="left">
+              <img src="img/fordgt.png" alt="FORDGT" />
+            </div>
+            <div class="right">
+              <h3>$2500 <span>/Day</span></h3>
+              <h2>FORD GT</h2>
+              <hr />
+              <ul>
+                <li><i class="fa-solid fa-gas-pump"></i>Gasoline</li>
+                <li><i class="fa-brands fa-rev"></i>7.000 miles</li>
+                <li><i class="fa-solid fa-car-side"></i>Clasic</li>
+                <li><i class="fa-solid fa-car-side"></i>Manual</li>
+              </ul>
+
+              <div class="buttons">
+                <p>AVAILABLE</p>
+                <a href="reservar.html"><button class="book-now-btn">Book now - </button></a>
+              </div>
+              <p class="discount">20% OFF</p>
+            </div>
+          </div>
+
+          <div
+            class="col-car nissans"
+            data-aos="flip-up"
+            data-aos-duration="1400"
+          >
+            <div class="left">
+              <img src="img/nissans.png" alt="NISSANS" />
+            </div>
+            <div class="right">
+              <h3>$2000<span>/Day</span></h3>
+              <h2>NISSAN SKYLINE GT-R R34</h2>
+              <hr />
+              <ul>
+                <li><i class="fa-solid fa-gas-pump"></i>Gasoline</li>
+                <li><i class="fa-brands fa-rev"></i>7.000 miles</li>
+                <li><i class="fa-solid fa-car-side"></i>Clasic</li>
+                <li><i class="fa-solid fa-car-side"></i>Manual</li>
+              </ul>
+
+              <div class="buttons">
+                <p>AVAILABLE</p>
+                <a href="reservar.html"><button class="book-now-btn">Book now - </button></a>
+              </div>
+              <p class="discount">20% OFF</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="fila">
+        <div class="col-footer texto">
+          <a href="#"><img src="img/Logo-w.png" alt="LOGO" /></a>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Perferendis, similique harum. Quod impedit maiores nobis?
+          </p>
+          <ul>
+            <a href="">FB</a>
+            <p>-</p>
+            <a href="">IG</a>
+            <p>-</p>
+            <a href="">LI</a>
+            <p>-</p>
+            <a href="">YT</a>
+            <p>-</p>
+            <a href="">TW</a>
+          </ul>
+        </div>
+        <div class="col-footer">
+          <h3><i class="fa-solid fa-clock"></i>WORKING HOURS</h3>
+
+          <p>Mon-Fri:09:00 AM - 09:00 PM</p>
+          <p>Sat:09:00 AM - 07:00 PM</p>
+          <p>Sun:Closed</p>
+        </div>
+        <div class="col-footer">
+          <h3><i class="fa-solid fa-address-card"></i>QUICK CONTACT</h3>
+
+          <p>Office:42 Marine Parade, Australia</p>
+          <p>Mail:info@8pxlstudio.com</p>
+          <p>Phone:+0123456789</p>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="fila">
+        <p>Copyright c 2025 Driveways. All Rights Reserved.</p>
+        <p>Privacy | Terms of service</p>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+      AOS.init();
+  
+      function showAndScrollToSection(id) {
+        const section = document.getElementById(id);
+        if (section) {
+          section.style.display = "block";
+          section.scrollIntoView({ behavior: "smooth" });
+  
+          let opened = JSON.parse(sessionStorage.getItem("openedSections") || "[]");
+          if (!opened.includes(id)) {
+            opened.push(id);
+            sessionStorage.setItem("openedSections", JSON.stringify(opened));
+          }
+  
+          sessionStorage.setItem("visibleSection", id);
+  
+          // Activar animaciones AOS
+          AOS.refresh();
+        }
+      }
+  
+      window.addEventListener("DOMContentLoaded", () => {
+        const openedSections = JSON.parse(sessionStorage.getItem("openedSections") || "[]");
+        openedSections.forEach(id => {
+          const section = document.getElementById(id);
+          if (section) {
+            section.style.display = "block";
+          }
+        });
+  
+        const targetId = sessionStorage.getItem("scrollToSection");
+        if (targetId) {
+          const targetSection = document.getElementById(targetId);
+          if (targetSection) {
+            setTimeout(() => {
+              targetSection.scrollIntoView({ behavior: "smooth" });
+              AOS.refresh(); // <- Aquí añadimos esto para que se activen las animaciones al volver
+            }, 100);
+          }
+          sessionStorage.removeItem("scrollToSection");
+        }
+  
+        sessionStorage.removeItem("visibleSection");
+      });
+  
+      window.addEventListener("load", () => {
+        if (
+          !performance
+            .getEntriesByType("navigation")[0]
+            .type.includes("back_forward")
+        ) {
+          const extraSections = [
+            "more-vehicles",
+            "more-vehicles-2",
+            "more-vehicles-3",
+          ];
+          extraSections.forEach((id) => {
+            const section = document.getElementById(id);
+            if (section) section.style.display = "none";
+          });
+  
+          sessionStorage.removeItem("visibleSection");
+          sessionStorage.removeItem("scrollToSection");
+          sessionStorage.removeItem("openedSections");
+        }
+      });
+  
+      document.querySelectorAll(".book-now-btn").forEach(button => {
+        button.addEventListener("click", () => {
+          const section = button.closest("section");
+          if (section && section.id) {
+            sessionStorage.setItem("scrollToSection", section.id);
+          }
+        });
+      });
+  </script>
+  </body>
+</html>

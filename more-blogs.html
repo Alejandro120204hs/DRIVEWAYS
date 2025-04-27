@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RESPONSIVE</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html" id="logo"
+          ><img src="img/logo.png" alt="Logo Website"
+        /></a>
+        <ul>
+          <li>
+            <a href="index.html">HOME</a>
+            <!-- <ul>
+                          <li><a href="#">HOME1</a></li>
+                          <li><a href="#">HOME2</a></li>
+                      </ul> -->
+          </li>
+          <li><a href="about.html">ABOUT US</a></li>
+          <li><a href="vehicles.html">VEHICLES</a></li>
+          <li><a href="#rentals">RENTALS</a></li>
+        </ul>
+        <a href="reservar.html">CONTAC US</a>
+      </nav>
+
+      <div id="cont-menu-mobile">
+        <a href="index.html">HOME</a>
+        <a href="about.html">ABOUT US</a>
+        <a href="vehicles.html">VEHICLES</a>
+        <a href="rentals.html">RENTALS</a>
+      </div>
+
+      <nav class="mobile">
+        <a href="index.html"><img src="img/logo.png" alt="LOGO" /></a>
+        <button onclick="menuMobile()"><i class="fa-solid fa-bars"></i></button>
+      </nav>
+
+      <div id="more-blogs">
+        <div class="tittle">
+          <h1>OURS BLOGS</h1>
+          <h2>GET TO KNOW OUR BLOGS</h2>
+          
+        </div>
+
+        <div class="fila">
+          <div class="col-blog" >
+            <div class="imagen">
+              <img
+              src="img/usar-carro.png"
+              alt="IMAgen"
+            />
+            </div>
+            <p class="category">Use Car</p>
+            <div class="info">
+              <h4>
+                HOW TO USE A CAR CORRECTLY: A GUIDE TO AVOIDING PROBLEMS AND FINES
+              </h4>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus
+                soluta perferendis laudantium ducimus distinctio quidem!
+              </p>
+              <hr />
+
+              <div class="fila">
+                <div class="autor">
+                  <img src="img/Image (2).png" alt="ABIGAIL" />
+                  <p>Abigail Barnes</p>
+                </div>
+
+                <p><i class="fa-solid fa-calendar-days"></i>10 March 2024</p>
+                <a href="use-car.html">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-blog">
+            <div class="imagen">
+              <img
+              src="img/niños2.jpg"
+              alt="IMAGEN"
+            />
+            </div>
+            <!-- <p class="discount">News</p> -->
+            <p class="category">Children</p>
+            <div class="info">
+              <h4>
+                TRAVELING WITH CHILDREN? HERE'S WHAT YOU NEED TO KNOW WHEN RENTING A CAR.
+              </h4>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus
+                soluta perferendis laudantium ducimus distinctio quidem!
+              </p>
+              <hr />
+
+              <div class="fila">
+                <div class="autor">
+                  <img src="img/Image (2).png" alt="ABIGAIL" />
+                  <p>Abigail Barnes</p>
+                </div>
+
+                <p><i class="fa-solid fa-calendar-days"></i>10 March 2024</p>
+                <a href="children.html">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mas-blogs">
+          <!-- <a href="#more-blogs-2"><button class="btn" onclick="toggleSection('more-blogs-2')"> MORE BLOGS</button></a> -->
+          <button class="btn" onclick="toggleSection('more-blogs-2')">MORE BLOGS</button>
+      </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="more-blogs-2">
+        <div class="fila">
+          <div class="col-blog">
+            <div class="imagen">
+              <img
+              src="img/alquilar.jpg"
+              alt="IMAgen"
+            />
+            </div>
+            <p class="category">WHAT IS BETTER?</p>
+            <div class="info">
+              <h4>
+                RENT OR BUY: WHAT'S BEST FOR YOUR VACATION?
+              </h4>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus
+                soluta perferendis laudantium ducimus distinctio quidem!
+              </p>
+              <hr />
+
+              <div class="fila">
+                <div class="autor">
+                  <img src="img/Image (2).png" alt="ABIGAIL" />
+                  <p>Abigail Barnes</p>
+                </div>
+
+                <p><i class="fa-solid fa-calendar-days"></i>10 March 2024</p>
+                <a href="better.html">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-blog">
+           <div class="imagen">
+            <img
+            src="img/errores2.jpeg"
+            alt="IMAGEN"
+          />
+           </div>
+            <!-- <p class="discount">News</p> -->
+            <p class="category">ERRORS</p>
+            <div class="info">
+              <h4>
+                MISTAKES WHEN RENTING A CAR AND HOW TO AVOID THEM
+              </h4>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus
+                soluta perferendis laudantium ducimus distinctio quidem!
+              </p>
+              <hr />
+
+              <div class="fila">
+                <div class="autor">
+                  <img src="img/Image (2).png" alt="ABIGAIL" />
+                  <p>Abigail Barnes</p>
+                </div>
+
+                <p><i class="fa-solid fa-calendar-days"></i>10 March 2024</p>
+                <a href="errors.html">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mas-blogs-2">
+          <!-- <a href="#more-blogs-3"><button class="btn" onclick="toggleSection('more-blogs-3')"> MORE BLOGS</button></a> -->
+          <button class="btn" onclick="toggleSection('more-blogs-3')">MORE BLOGS</button>
+      </div>
+      </section>
+
+      <section id="more-blogs-3">
+        <div class="fila">
+          <div class="col-blog">
+            <div class="imagen">
+              <img
+              src="img/preparacion1.png"
+              alt="IMAgen"
+            />
+            </div>
+            <p class="category">PREPARATION</p>
+            <div class="info">
+              <h4>
+                HOW TO PREPARE TO DRIVE A RENTAL CAR FOR THE FIRST TIME?
+              </h4>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus
+                soluta perferendis laudantium ducimus distinctio quidem!
+              </p>
+              <hr />
+
+              <div class="fila">
+                <div class="autor">
+                  <img src="img/Image (2).png" alt="ABIGAIL" />
+                  <p>Abigail Barnes</p>
+                </div>
+
+                <p><i class="fa-solid fa-calendar-days"></i>10 March 2024</p>
+                <a href="preparation.html">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-blog">
+           <div class="imagen">
+            <img
+            src="img/barado2.png"
+            alt="IMAGEN"
+          />
+           </div>
+            <!-- <p class="discount">News</p> -->
+            <p class="category">STRANDED CAR</p>
+            <div class="info">
+              <h4>
+                WHAT TO DO IF THE RENTAL CAR BREAKS DOWN?, FOLLOW THE STEPS
+              </h4>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus
+                soluta perferendis laudantium ducimus distinctio quidem!
+              </p>
+              <hr />
+
+              <div class="fila">
+                <div class="autor">
+                  <img src="img/Image (2).png" alt="ABIGAIL" />
+                  <p>Abigail Barnes</p>
+                </div>
+
+                <p><i class="fa-solid fa-calendar-days"></i>10 March 2024</p>
+                <a href="stranded.html">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="fila">
+        <div class="col-footer texto">
+          <a href="index.html"><img src="img/Logo-w.png" alt="LOGO" /></a>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Perferendis, similique harum. Quod impedit maiores nobis?
+          </p>
+          <ul>
+            <a href="">FB</a>
+            <p>-</p>
+            <a href="">IG</a>
+            <p>-</p>
+            <a href="">LI</a>
+            <p>-</p>
+            <a href="">YT</a>
+            <p>-</p>
+            <a href="">TW</a>
+          </ul>
+        </div>
+        <div class="col-footer">
+          <h3><i class="fa-solid fa-clock"></i>WORKING HOURS</h3>
+
+          <p>Mon-Fri:09:00 AM - 09:00 PM</p>
+          <p>Sat:09:00 AM - 07:00 PM</p>
+          <p>Sun:Closed</p>
+        </div>
+        <div class="col-footer">
+          <h3><i class="fa-solid fa-address-card"></i>QUICK CONTACT</h3>
+
+          <p>Office:42 Marine Parade, Australia</p>
+          <p>Mail:info@8pxlstudio.com</p>
+          <p>Phone:+0123456789</p>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="fila">
+        <p>Copyright c 2025 Driveways. All Rights Reserved.</p>
+        <p>Privacy | Terms of service</p>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+      AOS.init();
+    
+      function toggleSection(id) {
+        const section = document.getElementById(id);
+    
+        // Mostrar u ocultar la sección
+        if (section.style.display === 'none' || section.style.display === '') {
+          section.style.display = 'block';
+          saveVisibleSection(id);
+    
+          // Esperar un poco para que se renderice y luego hacer scroll
+          setTimeout(() => {
+            section.scrollIntoView({ behavior: 'smooth' });
+          }, 100);
+        } else {
+          section.style.display = 'none';
+          removeVisibleSection(id);
+        }
+      }
+    
+      function saveVisibleSection(id) {
+        let sections = JSON.parse(sessionStorage.getItem('visibleSections')) || [];
+        if (!sections.includes(id)) {
+          sections.push(id);
+          sessionStorage.setItem('visibleSections', JSON.stringify(sections));
+        }
+      }
+    
+      function removeVisibleSection(id) {
+        let sections = JSON.parse(sessionStorage.getItem('visibleSections')) || [];
+        sections = sections.filter(s => s !== id);
+        sessionStorage.setItem('visibleSections', JSON.stringify(sections));
+      }
+    
+      window.onload = () => {
+        const sectionIds = ['more-blogs-2', 'more-blogs-3'];
+    
+        const navType = performance.getEntriesByType('navigation')[0]?.type;
+    
+        if (navType === 'reload') {
+          sessionStorage.removeItem('visibleSections');
+        }
+    
+        sectionIds.forEach(id => {
+          const section = document.getElementById(id);
+          if (section) section.style.display = 'none';
+        });
+    
+        const savedSections = JSON.parse(sessionStorage.getItem('visibleSections')) || [];
+        savedSections.forEach(id => {
+          const section = document.getElementById(id);
+          if (section) section.style.display = 'block';
+        });
+      };
+    </script>
+  </body>
+</html>
